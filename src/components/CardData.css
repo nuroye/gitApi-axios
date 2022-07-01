@@ -13,16 +13,19 @@
     list-style-type: none;
     font-weight: 600;
     margin: 0;
+    margin-top: 15px;
 }
 
 .avt{
  margin-top: 10px;
  border-radius: 50px;
+ width: 100px;
+ height: 100px;
+
 }
 
 .btn{
-    background-color: beige;
-    color: rgb(66, 6, 6);
+
     border: 8px ;
     border-radius: 10px;
     cursor:pointer;
@@ -30,14 +33,15 @@
     text-align: center;
     text-decoration: none;
     transition-duration: 0.4s;
-    margin-top: 5px;
+    margin-top: 10px;
     
 }
 
 
 .btn:hover {
     transition-duration: 0.1s;
-    background-color: #3A3A3A;
+    background-color: #2256db;
+    border-radius: 10px;
 }
 .btn:active:after {
     box-shadow: 0 0 0 0 white;

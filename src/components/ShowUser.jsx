@@ -1,51 +1,21 @@
-/*
-import axios from "axios";
-import { useState } from "react"
-import CardData from "./CardData";
 
+import axios from "axios";
+import CardData from "./CardData";
+import NavBar from "./NavBar";
+import {Link} from 'react-router-dom'
 
 
 const ShowUser = () => {
-    state = {
-        display: []
-      } 
+   return(
+   <div>
     
-      componentDidMount() {
-        axios.get(`https://api.github.com/username`)
-          .then(res => {
-            const display = res.data;
-            this.setState({ display });
-           
-          })
-      }
-
-      render() 
-        return(
-            <ul>
-        
-        {
-          this.state.display
-            .map(datacool =>
-              
-              
-             
-                <div className='wrapper'>
-
-                     <h4  key={datacool.id}>{datacool.id}</h4>
-                     <h4>{datacool.login}</h4>
-                     <h4>{datacool.avatar_url}</h4>
-                    
-                     
-                     
-                </div>
-                
-            )
-        }
-      </ul>
-        )
-      }
-    }
-
+    <Link to="/carddata" className='btn'>
+      Back
+      </Link>
+      
+  
+   </div>
+)
+}
 
 export default ShowUser;
-*/
